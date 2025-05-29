@@ -51,5 +51,4 @@ HAI/
 ├── pth/                       ← 모델 저장 경로
 ├── result/                    ← 예측 결과 저장
 ├── logs/                      ← epoch당 train log 저장
-└── ensemble.ipynb             ← 기존 노트북 (백업용)
-```
+└── ensemble.ipynb             ← 기존 노트북 (백업용)```
