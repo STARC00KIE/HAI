@@ -8,9 +8,9 @@ import torch
 CFG = {
     'IMG_SIZE': 224,
     'BATCH_SIZE': 64,
-    'EPOCHS': 1,
+    'EPOCHS': 50,
     'LEARNING_RATE': 1e-4,
-    'PATIENCE': 1,
+    'PATIENCE': 5,
     'SEED': 42,
     'MODEL_NAME': 'resnet18',
     'TRAIN_DIR': './data/train',
