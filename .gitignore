@@ -1,0 +1,53 @@
+# Python 기본
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
+
+# 패키지 설치 파일
+*.egg-info/
+dist/
+build/
+
+# 환경 파일
+.env
+*.env
+.venv/
+venv/
+ENV/
+
+# Jupyter notebook output
+*.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# 로그, 결과, 모델
+logs/
+result/
+pth/
+*.log
+*.csv
+
+# IDE 설정
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS별 파일
+.DS_Store
+Thumbs.db
+
+# 기타 불필요한 파일
+*.bak
+*.tmp
+
+# 학습 데이터
+./data/test/
+./data/train/
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
