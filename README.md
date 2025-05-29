@@ -103,3 +103,5 @@ python train.py --model_name resnet18 --img_size 224 --batch_size 64 --epochs 30
 | `--lr`         | 학습률                 | 1e-4     |
 | `--patience`   | 조기 종료 기준            | 5        |
 | `--no-submit`  | 학습 후 자동 제출 생략       | -        |
+
+- `multi_train.bat` 파일 사용하여 여러 모델 한꺼번에 실행 가능

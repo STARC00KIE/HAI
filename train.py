@@ -115,3 +115,6 @@ if __name__ == "__main__":
 
     if args.submit:
         save_submission(CFG)
+
+    # 학습 후 GPU 메모리 정리
+    torch.cuda.empty_cache()
