@@ -14,7 +14,7 @@ def save_submission(cfg):
     pred = run_inference_probs(cfg)
 
     # 2. 샘플 제출 양식 불러오기
-    submission = pd.read_csv('./result/sample_submission.csv', encoding='utf-8-sig')
+    submission = pd.read_csv('./sample_submission.csv', encoding='utf-8-sig')
 
     # 3. 클래스 컬럼 정렬 일치
     class_columns = submission.columns[1:]
